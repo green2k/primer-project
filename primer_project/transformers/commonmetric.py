@@ -60,7 +60,7 @@ class CommonMetric():
     customer_id: str
 
 
-def extract_common_metrics(cursor: Cursor):
+def extract_common_metrics(cursor: Cursor) -> CommonMetric:
     """
     Extracts metrics from the database.
     """
